@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Formularz 1</title>
+    <meta name="viewport" content="width=screen-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    
+</head>
+<body>
+    <aside>
+    <header id="header1">
+        Formularze
+    </header>
+    <nav id="nav1">
+        <a href="formularz1.html" target="_self">
+            Formularz 1
+        </a>
+        <a href="formularz2.html" target="_self">
+            Formularz 2
+        </a>
+        <a href="formularz3.html" target="_self">
+            Formularz 3
+        </a>
+        <a href="formularz4.html" target="_self">
+            Formularz 4
+        </a>
+        <a href="formularz5.html" target="_self">
+            Formularz 5
+        </a>
+        <a href="formularz6.html" target="_self">
+            Formularz 6
+            </a>
+    </nav>
+    </aside>
+    <section>
+        <h1>
+        	Formularz kontaktowy
+    	</h1>
+    <br /> 
+        <form action="mailto:zbigniew.twardo@tm1.edu.pl" method="post">
+            <label>
+            	Nazwisko:
+        	</label>
+        	<br /> 
+            <input id="input1" type="text" name="nazw" size="30" />
+            <br />
+            <label>
+            	Imię:
+        	</label>
+        	<br />
+            <input id="input1" type="text" name="imie" size="30" />
+            <br />
+            <br />
+            <label>
+            	Wykształcenie:
+            </label>
+
+            <br />
+
+            <input type="radio" name="wykszt" value="podstawowe" checked />Podstawowe<br />
+            <input type="radio" name="wykszt" value="średnie" />Średnie<br />
+            <input type="radio" name="wykszt" value="wyższe" />Wyższe<br /><br />
+
+            W jakim języku programujesz?<br />
+
+            <input type="checkbox" name="progr[]" value="Php" />Php<br />
+            <input type="checkbox" name="progr[1" value="JavaScript" />JavaScript<br />
+            <input type="checkbox" name="progr[]" value="Python" />Python<br />
+            <input type="checkbox" name="progr[]" value="C++" />C++<br />
+            <input type="checkbox" name="progr[]" value="Java" />Java<br /><br />
+            <input type="checkbox" name="opcje" maxlength="1" />Zgadzam się na przetwarzanie danych osobowych<br /><br /><br />
+
+            Wiek:
+            <br />
+
+            <select name="wiek">
+                <option>0-17</option>
+                <option>18-40</option>
+                <option>41-60</option>
+                <option>powyżej 60</option> 
+            </select>
+
+            <br />
+            <br />
+
+            Uwagi:
+            <br />
+
+            <textarea rows="5" cells="15">Wpisz uwagi
+        	</textarea>
+
+        	<br />
+        	<br />
+
+            <input id="input1" type="submit" name="wyslij" value="Wyślij" />
+            &nbsp;&nbsp;
+            <input id="input1" type="reset" name="zeruj" value="Wyczyść" /> 
+        </form>
+    </section>
+    <footer>
+        <i>Autor: Zbigniew Twardo</i>
+    </footer>
+</body>
+</html>
